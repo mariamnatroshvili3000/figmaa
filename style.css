@@ -1,0 +1,12 @@
+.w-100{
+    width: 100%;
+}
+.nav-link_custom{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.btn_contact
