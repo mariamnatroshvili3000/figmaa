@@ -27,6 +27,10 @@ body{
     line-height: 30px;
     color: white;
 }
+.header{
+    position:fixed;
+    top: 0;
+}
 .btn_contact{
     padding: 10px 20px;
     width: 152px;
@@ -54,7 +58,31 @@ font-size: 20px;
 line-height: 180%;
 }
 
+
+
 .banner{
   
-    background-image: url(Rectangle\ 3.png)
+    background-image: url( Rectangle\ 3.png) 
+    padding-top: 140px;
+    padding-bottom: 140px; 
+}
+
+.mobile_image{
+    display: none;
+}
+@media (min-width: 768px){
+    .banner{
+        background-image: none;
+    }
+    .mobile_image{
+        display: block;
+    }
+}
+
+.download_cv{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
 }
